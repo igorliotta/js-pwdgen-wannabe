@@ -12,8 +12,8 @@
    - Dichiarare una variabile z.
   - Assegnare a suddetta variabile un valore, la quale anch'essa a sua volta dovrà essere restituita tramite la funzione prompt.
 
-- Concatenare i dati forniti dall'utente (nome, cognone e colore preferito):
-  - Dichiarare una variabile password dove concateneremo le tre stringhe.
+- Dichiarare una variabile password dove concateneremo le tre stringhe.
+   - Concatenare i dati forniti dall'utente in un'unica stringa (nome, cognone e colore preferito):
 
 - Stampare il risultato all'interno di un h1:
   - Inserire nella pagina html un tag h1 che possegga un id = "password".
