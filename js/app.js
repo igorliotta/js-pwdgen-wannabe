@@ -27,6 +27,6 @@ console.log(password);
 // - Stampare il risultato all'interno di un h1:
 //   - Inserire nella pagina html un tag h1 che possegga un id = "password".
 //   - Recuperare tramite Js gli elementi del Dom che posseggano id = "password".
-const messageDomElement = document.getElementById ('password'); 
+// const messageDomElement = document.getElementById ('password'); 
 //   - Infine modificare l'innerHTML del nostro tag h1 con il valore che abbiamo inserito nella variabile password.
-messageDomElement.innerHTML = password;
+// messageDomElement.innerHTML = password;
