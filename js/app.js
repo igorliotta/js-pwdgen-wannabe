@@ -20,11 +20,13 @@ let userFavcolor;
 userFavcolor = prompt ('Qual è invece il tuo colore preferito?')
 console.log(userFavcolor)
 // - Dichiarare una variabile password dove concateneremo le tre stringhe.
-let userPassword
+let password
 //    - Concatenare i dati forniti dall'utente in un'unica stringa(nome, cognone e colore preferito).
-userPassword = userName + '' + userSurname + '' + userFavcolor;
-console.log(userPassword);
+password = userName + '' + userSurname + '' + userFavcolor;
+console.log(password);
 // - Stampare il risultato all'interno di un h1:
 //   - Inserire nella pagina html un tag h1 che possegga un id = "password".
 //   - Recuperare tramite Js gli elementi del Dom che posseggano id = "password".
+const messageDomElement = document.getElementById ('password'); 
 //   - Infine modificare l'innerHTML del nostro tag h1 con il valore che abbiamo inserito nella variabile password.
+messageDomElement.innerHTML = password;
