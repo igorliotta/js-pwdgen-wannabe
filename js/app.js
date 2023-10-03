@@ -3,6 +3,7 @@
 // - Chiedere all'utente il suo nome:
 //   - Dichiarare una variabile x.
 let userName;
+
 //   - Assegnare a suddetta variabile un valore, la quale dovrà essere restituita tramite la funzione prompt.
 userName = prompt ('Hola, come ti chiami?');
 console.log(userName);
@@ -10,9 +11,11 @@ console.log(userName);
 // - Chiedere all'utente il suo cognome:
 //   - Dichiarare una variabile y.
 let userSurname;
+
 //   - Assegnare a suddetta variabile un valore, la quale anch'essa dovrà essere restituita tramite la funzione prompt.
 userSurname = prompt ('Qual è il tuo cognome?');
 console.log(userSurname);
+
 // - Chiedere all'utente il suo colore preferito:
 //    - Dichiarare una variabile z.
 let userFavcolor;
@@ -24,6 +27,46 @@ let password
 //    - Concatenare i dati forniti dall'utente in un'unica stringa(nome, cognone e colore preferito).
 password = userName + '' + userSurname + '' + userFavcolor;
 console.log(password);
+
+
+
+
+// # Bonus
+
+// - Inserire alla fine della password finale un numero random da 1 a 99:
+//   - Dichiarare una nuova variabile j random nel quale verrà scelto in maniera randomica il numero.
+function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+}
+
+// let numberRandom = Math.floor(Math.random() * 99);
+let numberRandom = getRandomInt(99);
+ console.log(numberRandom);
+
+// - Dichiarare una variabile finalPassword.
+let finalPassword
+
+// - Concatenare suddetta variabile j random alla variabile password iniziale.
+finalPassword = password + '' + numberRandom;
+console.log(finalPassword);
+
+// - Stampare il risultato all'interno del nostro h1.
+const messageDomElement = document.getElementById ('finalPassword'); 
+
+//   - Infine modificare l'innerHTML del nostro tag h1 con il valore che abbiamo inserito nella variabile password.
+messageDomElement.innerHTML = finalPassword;
+
+
+
+
+
+
+
+
+
+
+
+
 // - Stampare il risultato all'interno di un h1:
 //   - Inserire nella pagina html un tag h1 che possegga un id = "password".
 //   - Recuperare tramite Js gli elementi del Dom che posseggano id = "password".
