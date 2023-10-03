@@ -21,8 +21,8 @@ console.log(userSurname);
 let userFavcolor;
 
 //   - Assegnare a suddetta variabile un valore, la quale anch'essa a sua volta dovrà essere restituita tramite la funzione prompt.
-userFavcolor = prompt ('Qual è invece il tuo colore preferito?')
-console.log(userFavcolor)
+userFavcolor = prompt ('Qual è invece il tuo colore preferito?');
+console.log(userFavcolor);
 
 // - Dichiarare una variabile password dove concateneremo le tre stringhe.
 let password
@@ -43,7 +43,7 @@ let numberRandom = getRandomInt(99);
  console.log(numberRandom);
 
 // - Dichiarare una variabile finalPassword.
-let finalPassword
+let finalPassword;
 
 // - Concatenare suddetta variabile random alla variabile password iniziale.
 finalPassword = password + '' + numberRandom;
