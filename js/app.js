@@ -9,8 +9,10 @@ console.log(userName)
 
 // - Chiedere all'utente il suo cognome:
 //   - Dichiarare una variabile y.
+let userSurname
 //   - Assegnare a suddetta variabile un valore, la quale anch'essa dovrà essere restituita tramite la funzione prompt.
-
+userSurname = prompt ('Qual è il tuo cognome?')
+console.log(userSurname)
 // - Chiedere all'utente il suo colore preferito:
 //    - Dichiarare una variabile z.
 //   - Assegnare a suddetta variabile un valore, la quale anch'essa a sua volta dovrà essere restituita tramite la funzione prompt.
