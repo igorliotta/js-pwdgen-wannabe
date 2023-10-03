@@ -15,8 +15,10 @@ userSurname = prompt ('Qual è il tuo cognome?')
 console.log(userSurname)
 // - Chiedere all'utente il suo colore preferito:
 //    - Dichiarare una variabile z.
+let userFavcolor
 //   - Assegnare a suddetta variabile un valore, la quale anch'essa a sua volta dovrà essere restituita tramite la funzione prompt.
-
+userFavcolor = prompt ('Qual è invece il tuo colore preferito?')
+console.log(userFavcolor)
 // - Concatenare i dati forniti dall'utente (nome, cognone e colore preferito):
 //   - Dichiarare una variabile password dove concateneremo le tre stringhe.
 
