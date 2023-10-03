@@ -2,7 +2,10 @@
 
 // - Chiedere all'utente il suo nome:
 //   - Dichiarare una variabile x.
+let userName
 //   - Assegnare a suddetta variabile un valore, la quale dovrà essere restituita tramite la funzione prompt.
+userName = prompt ('Hola, come ti chiami?')
+console.log(userName)
 
 // - Chiedere all'utente il suo cognome:
 //   - Dichiarare una variabile y.
