@@ -29,4 +29,4 @@
 - Dichiarare una variabile finalPassword.
 - Concatenare suddetta variabile j random alla variabile password iniziale.
 - Stampare il risultato all'interno del nostro h1.
-- Infine modificare l'innerHTML del nostro tag h1 con il valore che abbiamo inserito nella variabile password.
+- Infine modificare l'innerHTML del nostro tag h1 con il valore che abbiamo inserito nella variabile finalpassword.
