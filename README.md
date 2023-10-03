@@ -19,3 +19,13 @@
   - Inserire nella pagina html un tag h1 che possegga un id = "password".
   - Recuperare tramite Js gli elementi del Dom che posseggano id = "password".
   - Infine modificare l'innerHTML del nostro tag h1 con il valore che abbiamo inserito nella variabile password.
+
+
+  <!-- BONUS -->
+# Bonus
+
+- Inserire alla fine della password finale un numero random da 1 a 99:
+  - Dichiarare una nuova variabile j random nel quale verrà scelto in maniera randomica il numero.
+- Dichiarare una variabile finalPassword.
+- Concatenare suddetta variabile j random alla variabile password iniziale.
+- Stampare il risultato all'interno del nostro h1.
